@@ -1,0 +1,122 @@
+#welcome-heading{
+    text-align: center;
+    color:  #03A08D;
+    margin-top: 40px;
+}
+.welcome:hover{
+    background: #03A08D;
+    border: none;
+}
+#admin-menu{
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.menu{
+    text-align: center;
+    border: 1px black solid;
+    margin: 2px;
+    align-content: center;
+    border-radius: 10px;
+}
+.row{
+    align-content: center;
+}
+.update-news-img, .attendance-img, .view-sts-img{
+    width: 38%;
+    padding-top: 30px;
+}
+/* .update-news-img{
+    width: 38%;
+    padding-top: 30px;
+    url:"/public/img-icon/g.png";
+} */
+.update-news-text, .view-sts-text, .attendance-text {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: #03A08D;
+}
+.update-news, .view-sts, .attendance{
+    text-align: center;
+    border: 1px black solid;
+    margin: 2px;
+    align-content: center;
+    border-radius: 10px;
+}
+
+/* sidebarmenu */
+#sidebar-menu{
+    height: 100%;
+    position: fixed;
+    width: 250px;
+    left: 0;
+    top: 0;
+    
+    margin-top: 122px;
+    background-color: #03A08D;
+    transform: translate(-250px);
+    transition: transform 250ms ease-in;
+}
+.nav-menu{
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.nav-menu li{
+    color:aliceblue;
+    border-bottom: 1px solid rgba(255,255,255, 0.30);
+
+}
+.nav-menu li a{
+    color: aliceblue;
+    display:block;
+    text-decoration: none;
+    padding: 20px;
+}
+#sidebaricon{
+    
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    z-index: 20;
+    top: 60px;
+    left: 20px;
+    cursor: pointer;
+    
+}
+#opensidebar:checked ~ #sidebar-menu{
+ transform: translateX(0px);
+}
+
+.spinner{
+        height: 3px;
+        background-color: white;
+
+
+}
+.spinner.top{
+    margin-top: 3px;
+    margin-bottom: 3px  
+    
+}
+.spinner .middle{
+    margin-top: 3px;
+    margin-bottom: 3px 
+} 
+.spinner .bottom{
+    margin-top: 3px;
+    margin-bottom: 3px 
+}
+ #opensidebar:checked ~ #sidebaricon > .spinner.top{
+    transform: translateX(135px);
+    margin-top: 8px ;
+}
+#opensidebar:checked ~ #sidebaricon > .spinner.bottom{
+    transform: translateX(-135px);
+    margin-top: -8px ;
+}
+#opensidebar:checked ~ #sidebaricon > .spinner.middle{
+    opacity: 0px;
+} 
+

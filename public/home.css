@@ -1,0 +1,170 @@
+body{
+    font-family:'Poppins', sans-serif; 
+}
+.container-fluid{
+    padding: 0 !important;
+}
+footer, header{
+    background: linear-gradient(91.8deg, #03A08D 28.11%, rgba(0, 0, 0, 0.86) 121.15%);
+}
+.nav-link{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 20px;
+}
+#mcs-logo{
+    background-color: transparent;
+    margin-left: 20px;
+    width: 15%; 
+}
+.nav-link:hover, .nav-link:active{
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: white;
+    text-underline-offset: 7px;
+    color: white;
+}
+.btn{
+    background-color: white;
+    border-radius: 25px;
+    font-size: large;
+    padding: 5px 18px;
+    margin-right: 22px !important;
+    margin-left: 22px !important
+}
+.btn:hover{
+    background-color: #00d1b8;
+    color: white;
+}
+.footer{
+    padding-top: 21px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    color: white;
+}
+#footer-list-head{
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.footer li{
+    padding-top: 4px;
+}
+
+#footer-right-align{
+    text-align: right;
+    padding-right: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.footer-link{
+    color: white;
+}
+
+.footer-link:hover{
+    color: white;
+}
+.dept-pic{
+    display: flex;
+ 
+    width: 100%;
+}
+img{
+    background-color: white;
+    width: 110%;
+}
+
+#notification-banner{
+    background-color: red;
+    color: white;
+}
+#about-us{
+    padding: 40px 70px;
+    padding: 40px 25px 40px 70px;
+}
+
+.about-us-heading{
+    text-align: center;
+    color:  #03A08D;
+}
+#about-us-text{
+    text-align: justify;
+    margin-top: 15px;
+}
+#login{
+    padding-left: 50px;
+}
+#login-inner-div{
+    padding: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background: linear-gradient(91.8deg, #03A08D 28.11%, rgba(0, 0, 0, 0.86) 121.15%);
+}
+#submit-btn{
+    display: block;
+    font-size: medium;
+    padding: 3px 10px;
+    margin-left: 140px !important;
+}
+#submit-btn:hover{
+    color: white;
+}
+.login-fields{
+    /* text-align: center; */
+    margin: auto;
+    display: block;
+}
+#username{
+    margin-top: 10px;
+}
+#cse-dept-heading{
+    text-align: center;
+    color:  #03A08D;
+}
+.cse-stats{
+    text-align: center;
+    border: 1px black solid;
+    margin: 2px;
+    align-content: center;
+    border-radius: 10px;
+}
+.row{
+    align-content: center;
+}
+.loginPortal{
+    border-radius: 15px;
+    background: linear-gradient(91.8deg, #03A08D 28.11%, rgba(0, 0, 0, 0.86) 121.15%);
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 30%;
+}
+#submit-btn{
+    margin: 15px 0px 20px 0px !important;
+    align-content: center ;
+}
+#login-username{
+    padding-top: 10px;
+}
+#cse-stats-div{
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.cse-stats-imgs{
+    width: 38%;
+    padding-top: 30px;
+}
+.cse-stats-text{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}

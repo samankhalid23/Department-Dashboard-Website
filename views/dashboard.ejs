@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/header-footer.css">
+    <link rel="stylesheet" href="/dasboard.css">
+    <link rel="stylesheet" href="/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Admin dasboard</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-sm p-4">
+            <img id="mcs-logo" src="/img-icon/MCS-logo.png">
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/faculty" class="nav-link">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/home" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="/home"><button class="btn navbar-btn mx-5" id="nav-login">Logout</button></a>
+        </nav>
+    </header>
+<!-- header finished -->    
+    <!-- navbar menu -->
+    <!-- <input type="checkbox" id="opensidebar">
+    <label for="opensidebar" id="sidebaricon">
+        <div class="spinner top"></div>
+        <div class="spinner middle"></div>
+        <div class="spinner bottom"></div>
+    </label>
+    <div id="sidebar-menu">
+        <ul class="nav-menu">
+            <li><a href="">Update News</a></li>
+            <li><a href="">View Students and Courses</a></li>
+            <li><a href="">View Attendance</a></li>
+        </ul>
+    </div> -->
+    
+    
+    <!-- news line -->
+    <div class="container-fluid dept-pic">
+        <img class="img-fluid" alt="Responsive image" src="/img-icon/CSEDept.jpg">
+    </div>
+    <div class="container-fluid">
+        <!-- <p id="notification-banner">Lorem ipsmolestias doloribus adipisci, minima voluptatem asperiores corporis maxime in molestiae inventore distinctio recusandae quae vel porro!</p> -->
+        <marquee id="notification-banner" behavior="slide" direction="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt commodi inventore ut voluptas repellat veniam repellendus corrupti, reiciendis laboriosam maiores dolorem molestias aliquid necessitatibus quidem, voluptatum vitae animi amet modi?</marquee>
+    </div>
+
+    <!-- Welcome menu -->
+    <div class="container-fluid">
+        <h2 id="welcome-heading">Welcome User</h2>
+        <div class="row d-flex flex-row justify-content-center" id="admin-menu">
+            <div class="col-sm-4">
+                <div class="container update-news welcome" id="update-news">
+                    <img class="update-news-img" src="/img-icon/g.png">
+                    <h4 class="update-news-text">Update News</h4>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="container view-sts welcome">
+                    <img class="view-sts-img" src="/img-icon/checklist g.png">
+                    <h4 class="view-sts-text">Enrollment by Courses</h4>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="container attendance welcome">
+                    <img class="attendance-img" src="/img-icon/calendar g.png">
+                    <h4 class="attendance-text">Attendance of Students</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container-fluid">
+        <h2 id="welcome_heading">WELCOME USER</h2>
+        <div class="row d-flex flex-row justify-content-center" id="admin_menu">
+            <div class="col-sm-4 menu">
+                <div class="container update_news">
+                    <img class="update_news_img" src="/public/img-icon/g.png">
+                    <h4 class="update_news_text">Update News</h4>
+                </div>
+            </div>
+            <div class="col-sm-4 menu">
+                <div class="container view_sts">
+                    <img class="view_sts_img" src="/public/img-icon/checklist g.png">
+                    <h4 class="view_sts_text">Enrollment by Courses</h4>
+                </div>
+            </div>
+            <div class="col-sm-4 menu">
+                <div class="container attendance">
+                    <img class="attendance_img" src="/public/img-icon/calendar g.png">
+                    <h4 class="attendance_text">Attendance of Students</h4>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- javascript for div click -->
+
+    <!-- Display the status -->
+
+    <div class="container-fluid">
+        <h2 id="cse-dept-heading">CSE Department</h2>
+        <div class="row d-flex flex-row justify-content-center" id="cse-stats-div">
+            <div class="col-sm-4 cse-dept">
+                <div class="container cse-stats">
+                    <img class="cse-stats-imgs" src="/img-icon/reading.png">
+                    <h4 class="cse-stats-text">1342 Students</h4>
+                </div>
+            </div>
+            <div class="col-sm-4 cse-dept">
+                <div class="container cse-stats">
+                    <img class="cse-stats-imgs" src="/img-icon/graduating-student.png">
+                    <h4 class="cse-stats-text">23023 Graduates</h4>
+                </div>
+            </div>
+            <div class="col-sm-4 cse-dept">
+                <div class="container cse-stats">
+                    <img class="cse-stats-imgs" src="/img-icon/tutor.png">
+                    <h4 class="cse-stats-text">17 Faculty Members</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer started -->
+    <footer class="container-fluid">
+        <div class="row footer" id="contact-us">
+            <div class="col-sm-3 d-flex">
+                <ul class="ms-auto list-unstyled" id="/contact-us-list">
+                    <li id="footer-list-head">Contact Us</li>
+                    <li>Support: 123-45678 </li>
+                    <li>Main Office: 123-45678 </li>
+                    <li>Coordinator: 123-45678 </li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul class="ms-auto list-unstyled" id="/quick-link-list">
+                    <li id="footer-list-head">Quick Links</li>
+                    <a href="" class="footer-link">Help</a>
+                    <br>
+                    <a href="" class="footer-link">About Us</a>
+                </ul>
+            </div>
+            <div class="col-sm-7">
+                <ul class="ms-auto list-unstyled" id="/mcs-link-list">
+                    <li id="footer-list-head">Military College of Signals, Rawalpindi</li>
+                    <li>Location: H3H7+275, Adiala Road, Lalazar, Rawalpindi, Punjab 46000</li>
+                    <li>Founded: 1947</li>
+                    <li id="footer-right-align">© MCS ALL RIGHTS RESERVED</li>
+                </ul>
+            </div>
+          </div> 
+    </footer>
+    <script src="/dashboard.js"></script>
+</body>
+
+</html>

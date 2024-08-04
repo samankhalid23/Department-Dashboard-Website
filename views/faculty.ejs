@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/header-footer.css">
+    <link rel="stylesheet" href="/faculty.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>CSE Dept Dashboard</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-sm p-4">
+            <img id="mcs-logo" src="/img-icon/MCS-logo.png">
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faculty.html" class="nav-link">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/home" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="login.html"><button class="btn navbar-btn mx-5" id="nav-login">Login</button></a>
+        </nav>
+    </header>
+    <div class="container-fluid dept-pic">
+        <img class="img-fluid" alt="Responsive image" src="/img-icon/CSEDept.jpg">
+    </div>
+    <div class="container-fluid">
+        <!-- <p id="notification-banner">Lorem ipsmolestias doloribus adipisci, minima voluptatem asperiores corporis maxime in molestiae inventore distinctio recusandae quae vel porro!</p> -->
+        <marquee id="notification-banner" behavior="slide" direction="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt commodi inventore ut voluptas repellat veniam repellendus corrupti, reiciendis laboriosam maiores dolorem molestias aliquid necessitatibus quidem, voluptatum vitae animi amet modi?</marquee>
+    </div>
+    <h2 class="text-center" id="heading" style="color: #03A08D ;"><strong>MCS Faculty<br></strong></h2>
+    <div class="text-center container" id="main">
+        <center>
+        <div id="hod"><br><br>
+            <img src="/img-icon/male.jpg">
+            <h4>Adnan Ahmed Khan</h4>
+            <p>HOD</p>
+        </div><br><br>
+        </center>
+        <!-- <% if(allInsc.length>0){ %>
+            <%   allInsc.forEach(allStds =>{ %>
+                   <div><img src="/img-icon/male.jpg" >
+                    <h4><%= allInsc.inst_name%></h4>
+                    <p><%= allInsc.position%></p></div>
+             <%  }) %> 
+        <%}%> -->
+
+        <div id="p1">
+            <img src="/img-icon/male.jpg">
+            <h4>Muaz Ahmed Khan Niazi</h4>
+            <p>Professor</p>
+        </div>
+        <div id="p2">
+            <img src="/img-icon/female.jpg">
+            <h4>Safia Akram</h4>
+            <p>Professor</p>
+
+        </div>
+        <div id="p3">
+            <img src="/img-icon/female.jpg">
+            <h4>Mehreen Afzal</h4>
+            <p>Professor</p>
+        </div>
+        <div id="asp1">
+            <img src="/img-icon/female.jpg">
+            <h4>Naima Altaf</h4>
+            <p>Associate Professor</p>
+        </div>
+        <div id="asp2">
+            <img src="/img-icon/female.jpg">
+            <h4>Ayesha Maqbool</h4>
+            <p>Associate Professor</p>
+        </div>
+        <div id="asp3">
+            <img src="/img-icon/female.jpg">
+            <h4>Fahim Arif</h4>
+            <p>Associate Professor</p>
+        </div>
+        <div id="p1">
+            <img src="/img-icon/female.jpg">
+            <h4>Uzma Ehsan</h4>
+            <p>Lecturer</p>
+        </div>
+        <div id="p2">
+            <img src="/img-icon/female.jpg">
+            <h4>Ayesha Naseer</h4>
+            <p>Lecturer</p>
+        </div>
+        <div id="asp3">
+            <img src="/img-icon/male.jpg">
+            <h4>Fawad Khan</h4>
+            <p>Lecturer</p>
+        </div>
+        
+        <div id="p1">
+            <img src="/img-icon/male.jpg">
+            <h4>Yawar Abbas Bangash</h4>
+            <p>Assistant Professor</p>
+        </div>
+        <div id="p2">
+            <img src="/img-icon/female.jpg">
+            <h4>Alia Razia Malik</h4>
+            <p>Assistant Professor</p>
+        </div>
+        <div id="asp3">
+            <img src="/img-icon/female.jpg">
+            <h4>Mobeena Shahzad</h4>
+            <p>Assistant Professor</p>
+        </div>
+
+
+        <div id="p1">
+            <img src="/img-icon/female.jpg">
+            <h4>Laraib Zainab</h4>
+            <p>Lab Engineer</p>
+        </div>
+        <div id="p2">
+            <img src="/img-icon/female.jpg">
+            <h4>Muntaha Noor</h4>
+            <p>Lab Engineer</p>
+        </div>
+        <div id="asp3">
+            <img src="/img-icon/male.jpg">
+            <h4>Muhammad Asif</h4>
+            <p>Lab Engineer</p>
+        </div>
+    </div>
+<br><br>
+    <footer class="container-fluid">
+        <div class="row footer" id="contact-us">
+            <div class="col-sm-3 d-flex">
+                <ul class="ms-auto list-unstyled" id="contact-us-list">
+                    <li id="footer-list-head">Contact Us</li>
+                    <li>Support: 123-45678 </li>
+                    <li>Main Office: 123-45678 </li>
+                    <li>Coordinator: 123-45678 </li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul class="ms-auto list-unstyled" id="quick-link-list">
+                    <li id="footer-list-head">Quick Links</li>
+                    <a href="" class="footer-link">Help</a>
+                    <br>
+                    <a href="" class="footer-link">About Us</a>
+                </ul>
+            </div>
+            <div class="col-sm-7">
+                <ul class="ms-auto list-unstyled" id="mcs-link-list">
+                    <li id="footer-list-head">Military College of Signals, Rawalpindi</li>
+                    <li>Location: H3H7+275, Adiala Road, Lalazar, Rawalpindi, Punjab 46000</li>
+                    <li>Founded: 1947</li>
+                    <li id="footer-right-align">© MCS ALL RIGHTS RESERVED</li>
+                </ul>
+            </div>
+          </div> 
+    </footer> 
+</body>
+</html>

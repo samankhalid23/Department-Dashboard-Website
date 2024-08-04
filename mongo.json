@@ -1,0 +1,40 @@
+[{
+    "_id": {
+      "$oid": "63d8ff24a419666842ff087d"
+    },
+    "instructor_id": 728,
+    "inst_name": "Fawad Khan",
+    "position": "Lecturer",
+    "email": "fawadkhan@gmail.com",
+    "specialization": "BS CS"
+  },
+  {
+    "_id": {
+      "$oid": "63d98c642983c768dfecce28"
+    },
+    "instructor_id": 733,
+    "inst_name": "Fiza Alam",
+    "position": "Associate Professor",
+    "email": "fizalam@gmail.com",
+    "specialization": "Phd. SDL"
+  },
+  {
+    "_id": {
+      "$oid": "63d98cf52983c768dfecce29"
+    },
+    "instructor_id": 734,
+    "inst_name": "Maimoona Farooq",
+    "position": "Assisstant Professor",
+    "email": "mf1234@gmail.com",
+    "specialization": "Phd"
+  },
+  {
+    "_id": {
+      "$oid": "63d98d312983c768dfecce2a"
+    },
+    "instructor_id": 735,
+    "inst_name": "Ali Shakir",
+    "position": "Lecturer",
+    "email": "shak04@gmail.com",
+    "specialization": "Phd. "
+  }]

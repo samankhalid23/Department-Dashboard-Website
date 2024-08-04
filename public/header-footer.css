@@ -1,0 +1,85 @@
+.container-fluid{
+    padding: 0 !important;
+}
+footer, header{
+    z-index: 10;
+    background: linear-gradient(91.8deg, #03A08D 28.11%, rgba(0, 0, 0, 0.86) 121.15%);
+}
+.nav-link{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 20px;
+}
+#mcs-logo{
+    background-color: transparent;
+    margin-left: 20px;
+    width: 15%; 
+}
+.nav-link:hover, .nav-link:active{
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: white;
+    text-underline-offset: 7px;
+    color: white;
+}
+.btn{
+    background-color: white;
+    border-radius: 25px;
+    font-size: large;
+    padding: 5px 18px;
+    margin-right: 22px !important;
+    margin-left: 22px !important
+}
+.btn:hover{
+    background-color: #00d1b8;
+    color: white;
+}
+.footer{
+    padding-top: 21px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    color: white;
+}
+#footer-list-head{
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.footer li{
+    padding-top: 4px;
+}
+
+#footer-right-align{
+    text-align: right;
+    padding-right: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.footer-link{
+    color: white;
+}
+
+.footer-link:hover{
+    color: white;
+}
+.dept-pic{
+    display: flex;
+ 
+    width: 100%;
+}
+img{
+    background-color: white;
+    width: 110%;
+}
+
+#notification-banner{
+    background-color: red;
+    color: white;
+}

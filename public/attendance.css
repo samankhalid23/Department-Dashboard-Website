@@ -1,0 +1,17 @@
+#progress {
+    width: 200px;   
+    border: 1px solid #03A08D;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 10px;
+}
+   
+   #percent {
+    position: absolute;   
+    left: 50%;
+   }
+   #bar {
+    height: 20px;
+    background: linear-gradient(91.8deg, #03A08D 28.11%, rgba(0, 0, 0, 0.86) 121.15%);
+    width: 30%;
+   }

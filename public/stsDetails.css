@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins', sans-serif; 
+}
+#heading{
+    color: #03A08D;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+}
+#details_div{
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    border-color: gray;
+    border-radius: 5px;
+    display: inline-block;
+    width: 850px;
+    margin-top: 50px;
+    margin-bottom: 70px; 
+}
+#side_div{
+    margin-top: 50px;
+    width: 300px;
+    margin-bottom: 70px; 
+    color: black;
+    padding-right: 50px;
+ 
+}
+#default_{
+    background: linear-gradient(91.8deg, #03A08D 28.11%, rgba(0, 0, 0, 0.86) 121.15%);
+    color: white; 
+    text-align: center;
+   
+}
+.course_{
+    /* text-align: center;
+    border: groove;
+    border-color: gray;
+    border-radius: 5px;
+    font-family:'Poppins', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    border-width: 2px; */
+    text-align: center;
+    border: groove;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family:'Poppins', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 7px;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    width: 180px;
+}
+.info1{
+    font-family:'Poppins', sans-serif;
+    padding-top: 50px;
+    font-weight: bold;   
+    padding-left: 30px;
+}
+.info2{
+    font-family:'Poppins', sans-serif;
+    padding-top: 50px;
+    font-weight: bold; 
+    padding-left: 70px;  
+}
+.info5{
+    font-family:'Poppins', sans-serif;
+    padding-top: 50px;
+    font-weight: bold; 
+    padding-left: 70px;  
+}
+.info3{
+    font-family:'Poppins', sans-serif;
+    padding-top: 5px;
+    font-weight: bold;   
+    padding-left: 30px;
+}
+.info4{
+    font-family:'Poppins', sans-serif;
+    padding-top: 5px;
+    font-weight: bold; 
+    margin-left: 65px;  
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2
+} 
+th{
+    background-color: #00d1b8;
+    color: white;
+}

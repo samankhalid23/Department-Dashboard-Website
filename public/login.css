@@ -1,0 +1,17 @@
+body{
+    font-family:'Poppins', sans-serif; 
+}
+.loginPortal{
+    border-radius: 15px;
+    background: linear-gradient(91.8deg, #03A08D 28.11%, rgba(0, 0, 0, 0.86) 121.15%);
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 30%;
+}
+#login-heading{
+    text-align: center;
+    padding: 25px 20px 5px 20px;
+}
+#submit-btn{
+    margin: 15px 0px 25px 0px; 
+}

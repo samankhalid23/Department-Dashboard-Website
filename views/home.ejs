@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/header-footer.css">
+    <link rel="stylesheet" href="/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>MCS Home</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-sm p-4">
+            <img id="mcs-logo" src="/img-icon/MCS-logo.png">
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/faculty" class="nav-link">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-us" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="/login"><button class="btn navbar-btn mx-5" id="nav-login">Login</button></a>
+        </nav>
+    </header>
+    <div class="container-fluid dept-pic">
+        <img class="img-fluid" alt="Responsive image" src="/img-icon/CSEDept.jpg">
+    </div>
+    <div class="container-fluid">
+        <!-- <p id="notification-banner">Lorem ipsmolestias doloribus adipisci, minima voluptatem asperiores corporis maxime in molestiae inventore distinctio recusandae quae vel porro!</p> -->
+        <marquee id="notification-banner" behavior="slide" direction="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt commodi inventore ut voluptas repellat veniam repellendus corrupti, reiciendis laboriosam maiores dolorem molestias aliquid necessitatibus quidem, voluptatum vitae animi amet modi?</marquee>
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="about-us">
+            <div class="col-sm-7">
+                <h2 class="about-us-heading">About Military College of Signals</h2>
+                <p id="about-us-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste amet vitae ex unde velit exercitationem facilis dolor saepe beatae repudiandae. Sint quibusdam ipsam non nam aspernatur unde? Commodi, quis maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, architecto! Minus labore maxime expedita explicabo minima repudiandae dignissimos, aspernatur dolores. Quam dicta eligendi qui provident fuga quod similique. Dolorum, soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt minima, reprehenderit officia molestiae, perspiciatis blanditiis saepe quibusdam fugiat non beatae repudiandae sint ratione sit architecto eius voluptatum, error neque ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis temporibus eos, perspiciatis ad consectetur molestiae maxime unde saepe quaerat quae debitis eveniet ipsum, in dignissimos provident. Dolorem, tempore illum!</p>
+            </div>
+            <div class="col-sm-5" id="login">
+                <h2 class="about-us-heading">Log in to CSE Dashboard</h2>
+                <div class="container-fluid m-3">
+                    <form name="loginForm">
+                        <div class="loginPortal container-fluid d-flex flex-column align-items-center w-75 py-3">
+                            <div class="p-2 d-flex flex-column">
+                                <label for="username" id="login-username">Username</label>
+                                <input type="text field" name="username">
+                                <div id="usernameErr"></div>
+                            </div>
+                            <div class="p-2 d-flex flex-column">
+                                <label for="password">Password</label>
+                                <input type="password" name="password">
+                                <div id="passwordErr"></div>
+                            </div>
+                            <input class="py-1 px-3 btn" id="submit-btn" type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h2 id="cse-dept-heading">CSE Department</h2>
+        <div class="row d-flex flex-row justify-content-center" id="cse-stats-div">
+            <div class="col-sm-4 cse-dept">
+                <div class="container cse-stats">
+                    <img class="cse-stats-imgs" src="/img-icon/reading.png">
+                    <h4 class="cse-stats-text"><%=totalStds %> Students</h4>
+                </div>
+            </div>
+            <div class="col-sm-4 cse-dept">
+                <div class="container cse-stats">
+                    <img class="cse-stats-imgs" src="/img-icon/graduating-student.png">
+                    <h4 class="cse-stats-text">1234 Graduates</h4>
+                </div>
+            </div>
+            <div class="col-sm-4 cse-dept">
+                <div class="container cse-stats">
+                    <img class="cse-stats-imgs" src="/img-icon/tutor.png">
+                    <h4 class="cse-stats-text"><%=totalFac %> Faculty Members</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="row footer" id="contact-us">
+            <div class="col-sm-3 d-flex">
+                <ul class="ms-auto list-unstyled" id="contact-us-list">
+                    <li id="footer-list-head">Contact Us</li>
+                    <li>Support: 123-45678 </li>
+                    <li>Main Office: 123-45678 </li>
+                    <li>Coordinator: 123-45678 </li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul class="ms-auto list-unstyled" id="quick-link-list">
+                    <li id="footer-list-head">Quick Links</li>
+                    <a href="" class="footer-link">Help</a>
+                    <br>
+                    <a href="" class="footer-link">About Us</a>
+                </ul>
+            </div>
+            <div class="col-sm-7">
+                <ul class="ms-auto list-unstyled" id="mcs-link-list">
+                    <li id="footer-list-head">Military College of Signals, Rawalpindi</li>
+                    <li>Location: H3H7+275, Adiala Road, Lalazar, Rawalpindi, Punjab 46000</li>
+                    <li>Founded: 1947</li>
+                    <li id="footer-right-align">© MCS ALL RIGHTS RESERVED</li>
+                </ul>
+            </div>
+          </div> 
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
